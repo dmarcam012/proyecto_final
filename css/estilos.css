@@ -1,11 +1,11 @@
 body{
     font-family: 'Inter', sans-serif;
-    color: #3c3e48;
+    color: #ffffff;
 
 }
 
 #hero {
-    background-image: url('/img/Background.jpg');
+    background-image: url('/img/fondo\ de\ pantalla\ azul.jfif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -41,6 +41,10 @@ h4{
     margin-top: 20px;
     border-radius: 10px;
     box-shadow: -1px 2px 9px #000;
+
+
+
+   
     
 
 }
