@@ -1,11 +1,11 @@
 body{
     font-family: 'Inter', sans-serif;
-    color: #ffffff;
+    color: #050505;
 
 }
 
 #hero {
-    background-image: url('/img/fondo\ de\ pantalla\ azul.jfif');
+    background-color: #aaa8a8;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -27,24 +27,68 @@ h4{
 
 }
 
-.boton-morado {
-    background-color: #8c30f5;
+.boton-azul {
+    background-color: #292929;
     color:#ffffff;
 }
 
-#testimonios{
-    background-color: #3bf3fd;
+#aliados{
+    background-color: #292929 ;
 }
 
-.caja-testimonios{
+.caja-aliados{
     background-color: #ffffff;
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: -1px 2px 9px #000;
-
-
-
-   
+    box-shadow: -1px 2px 9px #000;  
     
 
+}
+
+.logo_call-line {
+    width: 80px;
+
+}
+
+.fa, .fas {
+    font-weight: 150px;
+    color: rgb(255, 255, 255);
+}
+
+.color-azul {
+    background-color: #000000;
+    color: white;
+}
+
+.color-azul-claro {
+    background-color: #292929 ;
+     ;
+}
+
+#caracteristicas {
+    background-color: #aaa8a8;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#testimonios {
+    background-color: #292929 ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.caja-testimonios {
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: -1px 2px 9px #000; 
+}
+
+#footer {
+    background-color: #292929 ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

@@ -12,12 +12,14 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
       </style>
+
+      <script src="http://kit.fontawesome.com/7cb8ee3057.js"crossorigin="anonymous"></script>
     
     <title>Proyecto final</title>
   </head>
   <body>
     <!--Header-->
-    <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark color-azul">
       <div class="container-fluid">
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,50 +28,49 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Personas</a>
+              <a class="nav-link active" aria-current="page" href="#">PERSONAS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Empresas</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Información Importante para el usuario
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Procedimiento y trámite de PQR</a></li>
-                <li><a class="dropdown-item" href="#">Mapas de cobertura</a></li>
-                <li><a class="dropdown-item" href="#">Comparador de planes y tarifas</a></li>
-                <li><a class="dropdown-item" href="#">Indicadores de calidad del servicio de internet</a></li>
-                <li><a class="dropdown-item" href="#">Factores de limitación de la velocidad de internet</a></li>
-                <li><a class="dropdown-item" href="#">Prácticas de gestión de tráfico</a></li>
-                <li><a class="dropdown-item" href="#">Registra tu equipo</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Radica/Consulta PQR</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Centro de ayuda</a>
-            </li>
+              <a class="nav-link" href="#">EMPRESA</a>
+            </li>            
           </ul>
           
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              INFORMACION IMPORTANTE DEL USUARIO
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Como adquirir tus servicios</a></li>
+              <li><a class="dropdown-item" href="#">Informacion del servicio de internet</a></li>
+              <li><a class="dropdown-item" href="#">Servicio al cliente </a></li>
+            </ul>
+          </div>
+          <span class="navbar-text">
+            
+            <a class="nav-link" href="#">RADICA CONSULTA PQR</a>
+            
+          </span>
+
+          <span class="navbar-text">
+            
+            <a class="nav-link" href="#">CENTRO DE AYUDA</a>
+            
+          </span>
         </div>
       </div>
     </nav>
 
     <!--aca va ir el 2 nav-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark  color-azul-claro">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="img/logo1.png"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-brand" href="#"><img class="logo_call-line" src="img/mi_logo.png"></a>
+        
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Móvil
-              </a>
+               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Pospago</a></li>
                 <li><a class="dropdown-item" href="#">Contenido Premiun</a></li>
@@ -80,21 +81,24 @@
                 
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">INTERNET</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">TELEVISIÓN</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">PLANES</a>
-            </li>
+            
+               <li class="nav-item">
+                 <a class="nav-link" href="#">INTERNET</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">TELEVISIÓN</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">PLANES</a>
+               </li>
           </ul>
+          
           <li class="nav-item">
             <a class="nav-link" href="#">CELULARES</a>
           </li>
+          
           <span class="navbar-text">
-            <img src="img/cesta-de-la-compra.png">
+            <i class="fas fa-cart-plus"></i>            
           </span>
         </div>
       </div>
@@ -107,12 +111,14 @@
     <main id="main">
       <div id="hero">
         <div class="container">
-          <div class="row">
-            <div class="col-8">
-              <h1>
-                DISFRUTA DEL MEJOR ENTRETENIMIENTO CON CALL-LINE
-              </h1>
-              
+          <div class="row align-items-center">
+            <div class="col-5">
+              <h2 class="fs-1 d-md-none">Disfruta del mejor entretenimiento.</h2>
+              <h2 class="d-none d-md-block">Disfruta del mejor entretenimiento.</h2>
+              <button type="button" class="btn boton-azul btn-lg mt-4">Conocer más</button>
+            </div>
+            <div class="col-7">
+              <img src="img/fondo..jpg">  
             </div>
           </div>
         </div>
@@ -125,17 +131,195 @@
 
     <section id="aliados">
       <div class="container">
-        <div class="row">
-          <div class="col">
-            <img src="img/whatsapp.png">
-            <img src="img/App_Store_Badge.png">
-            <img src="img/BookMyShow_Logo.png">
+        <div class="row p-4">
+          <div class="col text-center">
+            <img class="p-4" src="img/aliados/facebook.png"> 
+            <img class="p-4" src="img/aliados/twitter.png">
+            <img class="p-4" src="img/aliados/pinterest.png">
+            <img class="p-4" src="img/aliados/instagram.png">
+            <img class="p-4" src="img/aliados/youtube.png">
+            <img class="p-4" src="img/aliados/whatsapp.png">
+            <img class="p-4" src="img/aliados/telegrama.png">
           </div>
         </div>
       </div>
     </section>
 
     <!--/aliados-->
+
+    <!-- Características -->
+    <section id="caracteristicas">
+      <div class="container text-center caracteristicas">
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn boton-azul btn-lg mt-4">MÁS CONTENIDO PREMIUM</button>
+            <h2 class="mt-4">
+              Adquiere nuestros servicios adicionales de paquetes premium con un 50% de descuento.
+            </h2>
+          </div>
+        </div>
+        <div class="row mt-5">
+
+          <div class="col-12 col-md-4">
+            <img src="img/icons/hbo.....png">
+            <h4 class="mt-3 mb-2">HBO</h4>
+            <p>Paquete premium con 50% de descuento.</p>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <img src="img/icons/netflix.png">
+            <h4 class="mt-3 mb-2">NETFLIX</h4>
+            <p>Paquete premium con 50% de descuento.</p>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <img src="img/icons/disneyplus-1024x577.jpg">
+            <h4 class="mt-3 mb-2">DISNEY+</h4>
+            <p>Paquete premium con 50% de descuento.</p>
+          </div>
+          
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-12 col-md-4">
+            <img src="img/icons/AmazonPrimeVideo.png">
+            <h4 class="mt-3 mb-2">AMAZON PRIME</h4>
+            <p>Paquete premium con 50% de descuento.</p>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <img src="img/icons/foxpremium.jpg">
+            <h4 class="mt-3 mb-2">FOX PREMIUM</h4>
+            <p>Paquete premium con 50% de descuento.</p>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <img src="img/icons/video-play-tv.png">
+            <h4 class="mt-3 mb-2">VIDEO PLAY TV.</h4>
+            <p>Paquete premium con 50% de descuento.</p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- /Características -->
+
+    <!-- Testimonios -->
+    <section id="Testimonios">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="mt-4 text-center">LA MEJOR PROGRAMACION</h1>
+
+            <section id="video" class="video">
+              <div class="container">
+                <div class="row py-5 text-center">
+                  <div class="col mt-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_aMj22xtPKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section id="video" class="video">
+              <div class="container">
+                <div class="row py-5 text-center">
+                  <div class="col mt-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uX4ItA9CISI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section id="video" class="video">
+              <div class="container">
+                <div class="row py-5 text-center">
+                  <div class="col mt-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-78LFVUWmWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section id="video" class="video">
+              <div class="container">
+                <div class="row py-5 text-center">
+                  <div class="col mt-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2sWWeyvTz54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section id="video" class="video">
+              <div class="container">
+                <div class="row py-5 text-center">
+                  <div class="col mt-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Sr-R2e7Vjco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </section>            
+          </div>
+        </div>
+      </div>
+    </section>  
+
+
+    <!-- /Testimonios -->
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12 col-lg-10">
+
+            <img src="img/mi_logo.png" class="mb-3">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link link-light ps-0" href="#">Conocenos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#">Legal y regulatorio</a>
+              </li>
+            </ul>
+
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link link-light ps-0" aria-current="page" href="#">Servicios Call-line</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#">Ayuda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#">Contactanos</a>
+              </li>
+              
+            </ul>
+
+            
+
+          </div>
+
+          <div class="col-12 col-lg-2 text-center">
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#">Contactanos</a>           
+           
+             <a href="#"><img class="mb-2" src="img/App_Store_Badge.png"></a>
+             <a href="#"><img class="mb-2" src="img/Google_Play_Badge.png"></a>
+            </li> 
+          </div>
+        </div>
+
+        <div class="row text-center py-3">
+          <div class="col">
+            Hecho Por Diego Martinez.
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
 
 
 
